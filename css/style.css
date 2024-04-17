@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    background-color: blue;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+header h1 {
+    margin-left: 40%;
+}
+
+main {
+    background-color: darkslateblue;
+    border: 0.25rem darkslateblue;
+}
+
+.barra_progresso {
+    position: relative;
+    width: 100%;
+    bottom: 7.5rem;
+}
+
+h2 {
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+    transform: translateY(-20rem);
+}
+
+footer {
+    background-color: darkslategray;
+    overflow: hidden;
+}
+
+footer nav{
+    overflow: hidden;
+}
+footer nav img{
+    display: inline-flex;
+    width: 32%;
+}
+
+
+
+.edit{
+    position: relative;
+    max-width: 7.5%;
+    left: 0.1rem;
+    top: 0.4rem;
+}
+
+li{
+    position: relative;
+    display: inline-block;
+    margin-left: 35%;
+    transform: translateY(1rem);
+}
+
+.adicionar_obj{
+    position: relative;
+    margin-top: 27rem;
+    margin-left: 43%;
+    transform: translateY(-15rem);
+    width: 4rem;
+}
+
+.corpo{
+    display: flex;
+    width: 50%;
+    overflow: hidden;
+}
+
+main p{
+    position: relative;
+    top: -12rem;
+}
