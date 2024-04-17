@@ -68,10 +68,10 @@ li{
 
 .nav_corpo{
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: nowrap;
     padding-top: 100%;
-
 }
 
 .corpo{
