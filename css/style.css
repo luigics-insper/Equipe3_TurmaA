@@ -6,7 +6,9 @@ header {
 }
 
 header h1 {
-    margin-left: 40%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -64,10 +66,17 @@ li{
     width: 4rem;
 }
 
-.corpo{
+.nav_corpo{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 100%;
+
+}
+
+.corpo{
     width: 50%;
-    overflow: hidden;
+    height: 100%;
 }
 
 main p{
