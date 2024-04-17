@@ -5,15 +5,10 @@ header {
     padding-top: 0.5rem;
 }
 
-header h1 {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
+main,.nav_estrelas {
     background-color: darkslateblue;
     border: 0.25rem darkslateblue;
+    text-decoration: none;
 }
 
 .barra_progresso {
@@ -41,8 +36,6 @@ footer nav img{
     display: inline-flex;
     width: 32%;
 }
-
-
 
 .edit{
     position: relative;
@@ -83,3 +76,23 @@ main p{
     position: relative;
     top: -12rem;
 }
+
+.voltar{
+    position: absolute;
+    height: 10%;
+}
+
+.estrela{
+    width: 100%;
+    overflow: hidden;
+}
+
+.exercicio{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.play{
+    width: 20%;
+}
+
