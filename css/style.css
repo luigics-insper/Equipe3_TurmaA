@@ -64,17 +64,13 @@ li{
     position: relative;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-top: 100%;
+    padding-top: 50%;
+    transform: translateY(-30%);
 }
 
 .corpo{
     width: 50%;
     height: 100%;
-}
-
-main p{
-    position: relative;
-    top: -12rem;
 }
 
 .voltar{
@@ -83,8 +79,8 @@ main p{
 }
 
 .estrela{
-    width: 100%;
-    overflow: hidden;
+    position: relative;
+    max-height: 30%;
 }
 
 .exercicio{
@@ -96,9 +92,9 @@ main p{
     width: 20%;
 }
 
-.niveis_exercicio{
+.niveis_exercicio, .header_tp, .header_progresso, .header_objetivos{
     position: relative;
-    left: 50%;   
+    left: 45%;   
 }
 
 .nivel_estrela{
