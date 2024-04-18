@@ -267,7 +267,7 @@ main,
     text-decoration: none;
 }
 
-.barra_progresso {
+.img_barra_progresso {
     position: relative;
     width: 100%;
     bottom: 7.5rem;
@@ -294,7 +294,7 @@ footer nav img {
     width: 32%;
 }
 
-.edit {
+.img_edit {
     position: relative;
     max-width: 7.5%;
     left: 0.1rem;
@@ -308,7 +308,7 @@ li {
     transform: translateY(1rem);
 }
 
-.adicionar_obj {
+.input_adicionar_obj {
     position: relative;
     margin-top: 27rem;
     margin-left: 43%;
@@ -325,17 +325,17 @@ li {
     transform: translateY(-30%);
 }
 
-.corpo {
+.img_corpo {
     width: 50%;
     height: 100%;
 }
 
-.voltar {
+.img_voltar {
     position: absolute;
     height: 10%;
 }
 
-.estrela {
+.img_estrela {
     position: relative;
     height: 50%;
     overflow: hidden;
@@ -362,16 +362,16 @@ li {
 }
 
 
-.exercicio {
+.img_exercicio {
     width: 100%;
     padding-top: 2rem;
 }
 
-.play {
+.img_play {
     width: 20%;
 }
 
-.niveis_exercicio,
+.h1_niveis_exercicio,
 .header_tp,
 .header_progresso,
 .header_objetivos {
@@ -379,11 +379,11 @@ li {
     left: 45%;
 }
 
-.nivel_estrela {
+.img_nivel_estrela {
     width: 100%;
 }
 
-.voltar_niveis {
+.img_voltar_niveis {
     position: absolute;
     height: 4%;
     margin-top: -1.9%;
