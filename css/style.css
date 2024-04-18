@@ -254,7 +254,7 @@
 
 header {
     display: flex;
-    background-color: blue;
+    background-color: #0300E0;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
 }
@@ -262,8 +262,8 @@ header {
 main,
 .nav_estrelas,
 .nav_niveis_exercicio {
-    background-color: darkslateblue;
-    border: 0.25rem darkslateblue;
+    background-color: #96C7FF;
+    border: 0.25rem #96C7FF;
     text-decoration: none;
 }
 
@@ -281,7 +281,7 @@ h2 {
 }
 
 footer {
-    background-color: darkslategray;
+    background-color: #D6D8DF;
     overflow: hidden;
 }
 
