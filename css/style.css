@@ -254,16 +254,17 @@
 
 header {
     display: flex;
-    background-color: #0300E0;
+    background-color: #613430;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+
 }
 
 main,
 .nav_estrelas,
 .nav_niveis_exercicio {
-    background-color: #96C7FF;
-    border: 0.25rem #96C7FF;
+    background-color: #332b2b;
+    border: 0.25rem #b62b1e;
     text-decoration: none;
 }
 
@@ -281,7 +282,7 @@ h2 {
 }
 
 footer {
-    background-color: #D6D8DF;
+    background-color: #8b362e;
     overflow: hidden;
 }
 
@@ -369,14 +370,6 @@ li {
 
 .img_play {
     width: 20%;
-}
-
-.h1_niveis_exercicio,
-.header_tp,
-.header_progresso,
-.header_objetivos {
-    position: relative;
-    left: 45%;
 }
 
 .img_nivel_estrela {
