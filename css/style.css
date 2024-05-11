@@ -251,7 +251,6 @@
 }
 
 
-
 header {
     background-color: #613430;
     padding-bottom: 0.5rem;
@@ -272,19 +271,19 @@ h1{
     text-align: center;
     margin-top: 0.5rem;
 }
+a{
+    display: inline-flexbox;
+}
 main,
 .nav_estrelas,
 .nav_niveis_exercicio {
     background-color: #332b2b;
     border: 0.25rem #b62b1e;
     text-decoration: none;
+    flex: 1;
 }
 
-.img_barra_progresso {
-    position: relative;
-    width: 100%;
-    bottom: 7.5rem;
-}
+
 
 h2 {
     display: flex;
@@ -316,17 +315,25 @@ footer nav img {
 
 li {
     position: relative;
-    display: inline-block;
-    margin-left: 35%;
-    transform: translateY(1rem);
+    display: block;
+    font-size: 1.5rem;
+    color: #f7f7f7;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    
+
 }
 
 .input_adicionar_obj {
     position: relative;
-    margin-top: 27rem;
-    margin-left: 43%;
-    transform: translateY(-15rem);
-    width: 4rem;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
 }
 
 .img_voltar {
