@@ -329,20 +329,6 @@ li {
     width: 4rem;
 }
 
-.nav_corpo {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding-top: 50%;
-    transform: translateY(-30%);
-}
-
-.img_corpo {
-    width: 50%;
-    height: 100%;
-}
-
 .img_voltar {
     position: absolute;
     height: 10%;
@@ -392,4 +378,35 @@ li {
     position: absolute;
     height: 4%;
     margin-top: -1.9%;
+}
+
+.main_tp{
+    display: flex; 
+    flex-direction: column;
+}
+
+.p_info {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav_corpo {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 50%;
+    transform: translateY(-30%);
+}
+
+.nav_corpo_a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.img_corpo{
+    display: flex;
 }
