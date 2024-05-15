@@ -348,26 +348,6 @@ li {
     left:15%
 }
 
-.img_uma_estrela{
-    position: relative;
-    height: 50%;
-    overflow: hidden;
-    left:35%;
-}
-
-.img_duas_estrela{
-    position: relative;
-    height: 50%;
-    overflow: hidden;
-    left:30%;
-}
-
-.img_tres_estrela{
-    height: 30%;
-    overflow: hidden;
-}
-
-
 .img_exercicio {
     width: 100%;
     padding-top: 2rem;
@@ -438,3 +418,9 @@ footer nav {
 .main_index,.main_objetivos,.main_tp,.main_{
     height: 100vh;
 }
+
+header img{
+    height: 25vh;
+}
+
+
