@@ -295,15 +295,15 @@ h2 {
 footer {
     background-color: #8b362e;
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
-footer nav {
-    overflow: hidden;
-}
+
 
 footer nav img {
-    display: inline-flex;
-    width: 32%;
+    max-width: 44px;
 }
 
 .img_edit {
@@ -416,4 +416,25 @@ li {
 
 .img_corpo{
     display: flex;
+}
+
+footer {
+    display: flex;
+    background-color: #8b362e;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+footer nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.main_index{
+    height: 100vh;
 }
