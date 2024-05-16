@@ -33,7 +33,3 @@ var currentLength;
                 alert("You reached the minimum length of the progressbar!");
             }
         }
-
-document.addEventListener('DOMContentLoaded', function() {
-
-})
