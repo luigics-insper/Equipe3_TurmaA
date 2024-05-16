@@ -1,25 +1,39 @@
-document.addEventListener('DOMContentLoaded', function() {
+var currentLength;
+        function increaseLength(){
+            currentLength = document.getElementById("progress").value;
+            if (currentLength < 90) {
+                currentLength += 10;
+                document.getElementById("progress").value = currentLength;
+            }
 
-    function move() {
-        var elem = document.getElementById("myBar"); 
-        var width = parseInt(elem.innerHTML);
-        var aim = width + 10;
-        var id = setInterval(frame, 10);
-        
-        function frame() {
-            if (width >= aim) {
-                clearInterval(id);
-            } else if(width >= 100) {
-                width=0; 
-                aim = 10;
-                elem.style.width = width + '%'; 
-                elem.innerHTML = width * 1 + '%';
-            } else {
-                width++;
-                elem.style.width = width + '%'; 
-                elem.innerHTML = width * 1 + '%';
+            else if (currentLength >= 90 && currentLength < 100) {
+                currentLength = 100;
+                document.getElementById("progress").value = currentLength;
+
+            }
+
+            else{
+                alert("You reached the maximum length of the progressbar!");
             }
         }
-    }
-    
+
+        function decreaseLength(){
+            currentLength = document.getElementById("progress").value;
+            if (currentLength > 10) {
+                currentLength -= 10;
+                document.getElementById("progress").value = currentLength;
+            }
+
+            else if (currentLength > 0 && currentLength <= 10) {
+                currentLength = 0;
+                document.getElementById("progress").value = currentLength;
+            }
+
+            else{
+                alert("You reached the minimum length of the progressbar!");
+            }
+        }
+
+document.addEventListener('DOMContentLoaded', function() {
+
 })

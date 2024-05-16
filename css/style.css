@@ -444,3 +444,29 @@ header img{
 .main_tp{
     padding-top: 3rem;
 }
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    border: 2px solid #12182b;
+    border-radius:3px;
+    height: 25px;
+    width: 80%;
+    background-color: #332b2b;
+    border-radius: 3px;
+  }
+  
+  progress[value]::-moz-progress-bar {
+      background-image:
+      -moz-linear-gradient( 0deg, #332b2b 95%, #332b2b);
+  }
+  progress[value]::-webkit-progress-bar {
+      background-image:
+      -webkit-linear-gradient( 0deg,#332b2b 95%, #332b2b);
+  }  
+
+main button{
+
+}
