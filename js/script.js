@@ -65,3 +65,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 });
+
+document.addEventListener('DOMContentLoaded', function (evento) {
+    let main_tp = document.querySelector(".main_tp");
+    let x = main_tp.querySelector('.container');
+    let peitoral = x.querySelector('map');
+    let area = peitoral.querySelector('area');
+    let frente = x.querySelector('img');
+
+    area.addEventListener('mouseover',function(evento){
+        frente.src = '../img/frente_peitoral_selecionado.png';
+        evento.stopPropagation();
+    });
+    area.addEventListener('mouseout',function(evento){
+        frente.src = '../img/frente.png';
+        evento.stopPropagation();
+    });
+})
