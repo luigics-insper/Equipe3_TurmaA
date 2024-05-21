@@ -341,10 +341,6 @@ li {
     width: 20%;
 }
 
-.img_nivel_estrela {
-    width: 100%;
-}
-
 .img_voltar_niveis {
     position: absolute;
     height: 4%;
@@ -485,4 +481,13 @@ h1{
     position: absolute;
     height: 3vh;
     align-self: flex-start;
+}
+
+.nivel-estrela{
+    transform: scale(0.4);
+    transform-origin: top ;
+}
+
+.header_nivel{
+    height: 10vh;
 }
