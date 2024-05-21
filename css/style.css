@@ -40,6 +40,7 @@
     font-style: normal;
 }
 
+
 .ibm-plex-serif-thin-italic {
     font-family: "IBM Plex Serif", serif;
     font-weight: 100;
@@ -337,10 +338,6 @@ li {
     padding-top: 2rem;
 }
 
-.img_play {
-    width: 20%;
-}
-
 .img_voltar_niveis {
     position: absolute;
     height: 4%;
@@ -491,3 +488,23 @@ h1{
 .header_nivel{
     height: 10vh;
 }
+
+.ibm-plex-sans-bold-branca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+
+.img_play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding-bottom: 0.3rem;
+}
+
