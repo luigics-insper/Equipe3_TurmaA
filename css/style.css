@@ -260,7 +260,7 @@ header {
     top: 0;
     width: 100%;
     text-align: center;
-    size: 1rem;
+    resize: 1rem;
 }
 
 
