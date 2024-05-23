@@ -3,8 +3,20 @@ var currentLength;
 var ultima_posicao = 1;
 var contador = 1;
 
+document.addEventListener('DOMContentLoaded', function (evento) {
+    const progressElement = document.getElementById("progress");
+    const savedProgress = localStorage.getItem("progressValue");
+    if (savedProgress !== null) {
+        progressElement.value = savedProgress;
+    }
+});
+
+function updateProgressValue(value) {
+    localStorage.setItem("progressValue", value);
+}
+
 function increaseLength() {
-    currentLength = document.getElementById("progress").value;
+    let currentLength = parseInt(document.getElementById("progress").value, 10);
     if (currentLength < 90) {
         currentLength += 10;
         document.getElementById("progress").value = currentLength;
@@ -12,17 +24,13 @@ function increaseLength() {
 
     else if (currentLength >= 90 && currentLength < 100) {
         currentLength = 100;
-        document.getElementById("progress").value = currentLength;
-
     }
-
-    else {
-        alert("You reached the maximum length of the progressbar!");
-    }
+    document.getElementById("progress").value = currentLength;
+    updateProgressValue(currentLength);
 }
 
 function decreaseLength() {
-    currentLength = document.getElementById("progress").value;
+    let currentLength = parseInt(document.getElementById("progress").value, 10);
     if (currentLength > 10) {
         currentLength -= 10;
         document.getElementById("progress").value = currentLength;
@@ -30,16 +38,13 @@ function decreaseLength() {
 
     else if (currentLength > 0 && currentLength <= 10) {
         currentLength = 0;
-        document.getElementById("progress").value = currentLength;
-    }
-
-    else {
-        alert("You reached the minimum length of the progressbar!");
-    }
+}
+    document.getElementById("progress").value = currentLength;
+    updateProgressValue(currentLength);
 }
 
 // script página de objetivos
-document.addEventListener('DOMContentLoaded', function (event) {
+document.addEventListener('DOMContentLoaded', function (evento) {
     let botao_adicionar = document.querySelector(".adicionar-elemento");
     let botao_remover = document.querySelector(".remover-elemento");
 
